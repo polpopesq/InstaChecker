@@ -28,7 +28,7 @@ This tool helps you identify Instagram accounts that **don’t follow you back**
 
 ### II. Download the Tool
 
-Download the `.exe` file from the [releases section](#) (replace `#` with your link).
+Download the `.exe` file from the [releases section](https://github.com/polpopesq/InstaChecker/releases/tag/v1.0.0) (replace `#` with your link).
 
 ---
 
