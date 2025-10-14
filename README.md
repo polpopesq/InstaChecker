@@ -35,7 +35,17 @@ Download the `.exe` file from the [releases section](https://github.com/polpopes
 ### III. Run the Tool
 
 1. Place the `following.json` and `followers.json` files in the same directory as the `.exe` file.  
-2. Double-click the `.exe` to run it.  
+2. Double-click the `.exe` to run it.
+
+#### If Windows blocks the app (SmartScreen)
+
+If you see *Microsoft Defender SmartScreen prevented an unrecognized app from starting* when running `InstaChecker.exe`:
+Click "More info" and "Run anyway". If you cannot do that, **Unblock the EXE**:
+   - Right-click `InstaChecker.exe` → **Properties** → check **Unblock** → **Apply** → **OK**  
+   - Or run in PowerShell:
+   ```powershell
+   Unblock-File .\InstaChecker.exe
+   ```
 
 ---
 
