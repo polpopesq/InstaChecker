@@ -28,7 +28,7 @@ This tool helps you identify Instagram accounts that **don’t follow you back**
 
 ### II. Download the Tool
 
-Download the `.exe` file from the [releases section](https://github.com/polpopesq/InstaChecker/releases/tag/v1.0.0) (replace `#` with your link).
+Download the `.exe` file from the [releases section](https://github.com/polpopesq/InstaChecker/releases/tag/v1.0.0).
 
 ---
 
@@ -50,4 +50,15 @@ Download the `.exe` file from the [releases section](https://github.com/polpopes
 
 ### Notes
 - Make sure your JSON files are named correctly and placed in the same folder as the `.exe`.  
-- This tool only reads your exported Instagram data; it does not interact with Instagram directly.  
+- This tool only reads your exported Instagram data; it does not interact with Instagram directly.
+
+  ---
+
+### Support
+
+If the tool doesn’t work as expected, please contact me so I can address the issue and make the necessary improvements:  
+
+- **GitHub Issues:** [Open an issue](https://github.com/polpopesq/InstaChecker/issues)  
+- **Email:** [paul.popescu2003@gmail.com](mailto:paul.popescu2003@gmail.com)  
+
+I’ll respond as quickly as possible to help you get it working.
