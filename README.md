@@ -15,8 +15,8 @@ This tool helps you identify Instagram accounts that **don’t follow you back**
 
 1. Go to [Instagram Account Center](https://accountscenter.instagram.com/info_and_permissions) and select **Export your information**.  
 2. Select the account you want to analyze and click **Export to device**.  
-3. Customize the export by clicking **Customize information**:  
-   - Uncheck everything except **Followers and following** under the **Connections** tab to speed up the download.  
+3. Customize the export by clicking **Customize information**  
+4. Uncheck everything except **Followers and following** under the **Connections** tab to speed up the download.  
 4. Set the date range to **All time**.  
 5. Choose **JSON format** and click **Start export**.  
    - You will need to enter your password to confirm.  
