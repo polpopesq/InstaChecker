@@ -5,7 +5,7 @@ This tool helps you identify Instagram accounts that **don’t follow you back**
 ## Features
 - See which users you follow who aren’t following you back.
 - See which users follow you that you don’t follow back.
-- Open users’ profiles directly in your browser from the app.
+- Open users’ profiles directly in your browser from the app. (If you choose the GUI version)
 
 ---
 
@@ -15,8 +15,8 @@ This tool helps you identify Instagram accounts that **don’t follow you back**
 
 1. Go to [Instagram Account Center](https://accountscenter.instagram.com/info_and_permissions) and select **Export your information**.  
 2. Select the account you want to analyze and click **Export to device**.  
-3. Customize the export by clicking **Customize information**  
-4. Uncheck everything except **Followers and following** under the **Connections** tab to speed up the download.  
+3. Customize the export by clicking **Customize information**:  
+   - Uncheck everything except **Followers and following** under the **Connections** tab to speed up the download.  
 4. Set the date range to **All time**.  
 5. Choose **JSON format** and click **Start export**.  
    - You will need to enter your password to confirm.  
@@ -28,25 +28,31 @@ This tool helps you identify Instagram accounts that **don’t follow you back**
 
 ### II. Download the Tool
 
-Download the `.exe` file from the [releases section](https://github.com/polpopesq/InstaChecker/releases/tag/v1.0.0).
+Download the `.exe` file from the [releases section](#).
+| Version                             | Platform                  | Interface    | Description                                       |
+| ----------------------------------- | ------------------------- | ------------ | ------------------------------------------------- |
+| 🪟 **Windows GUI**                  | Windows 10/11             | Graphical    | Easy to use, shows results in interactive windows |
+| 🍎 **macOS GUI**                    | macOS 12+                 | Graphical    | Same interface as Windows, optimized for macOS    |
+| 🧑‍💻 **No GUI (Linux / Terminal)** | Any (Windows/macOS/Linux) | Command-line | Runs in terminal, simple text output              |
+
+Choose the version that matches your operating system.
+If unsure, use the No GUI version — it works everywhere.
 
 ---
 
 ### III. Run the Tool
 
+# For Windows GUI / Mac OS GUI
 1. Place the `following.json` and `followers.json` files in the same directory as the `.exe` file.  
-2. Double-click the `.exe` to run it.
+2. Double-click the `.exe` to run it.  
 
-#### If Windows blocks the app (SmartScreen)
-
-If you see *Microsoft Defender SmartScreen prevented an unrecognized app from starting* when running `InstaChecker.exe`:
-Click "More info" and "Run anyway". If you cannot do that, **Unblock the EXE**:
-   - Right-click `InstaChecker.exe` → **Properties** → check **Unblock** → **Apply** → **OK**  
-   - Or run in PowerShell:
-   ```powershell
-   Unblock-File .\InstaChecker.exe
-   ```
-
+# For No GUI (Terminal)
+1. Place followers.json and following.json in the same folder as the executable.
+2. Open a terminal in that folder.
+3. Run:
+```bash
+./InstaCheckerNoGUI
+```
 ---
 
 ### IV. Using the Tool
@@ -60,15 +66,4 @@ Click "More info" and "Run anyway". If you cannot do that, **Unblock the EXE**:
 
 ### Notes
 - Make sure your JSON files are named correctly and placed in the same folder as the `.exe`.  
-- This tool only reads your exported Instagram data; it does not interact with Instagram directly.
-
-  ---
-
-### Support
-
-If the tool doesn’t work as expected, please contact me so I can address the issue and make the necessary improvements:  
-
-- **GitHub Issues:** [Open an issue](https://github.com/polpopesq/InstaChecker/issues)  
-- **Email:** [paul.popescu2003@gmail.com](mailto:paul.popescu2003@gmail.com)  
-
-I’ll respond as quickly as possible to help you get it working.
+- This tool only reads your exported Instagram data; it does not interact with Instagram directly.  

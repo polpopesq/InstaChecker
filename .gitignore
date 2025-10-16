@@ -1,15 +1,84 @@
-# CMake build artifacts
-/build/
-CMakeCache.txt
-CMakeFiles/
-cmake_install.cmake
-Makefile
-*.ninja
-*.obj
-*.exe
-*.pdb
-*.dll
-*.log
+# -------------------------
+# OS-specific ignores
+# -------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# -------------------------
+# IDE / Editor files
+# -------------------------
+.idea/
+.vscode/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+# -------------------------
+# CMake build folders
+# -------------------------
+build/
+cmake-build-debug/
+cmake-build-release/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+CMakeScripts/
+Testing/
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+*.cmake
+
+# -------------------------
+# Binaries & object files
+# -------------------------
+*.exe
+*.dll
+*.obj
+*.o
+*.so
+*.a
+*.lib
+*.pdb
+*.exp
+*.out
+
+# -------------------------
+# Logs and temporary files
+# -------------------------
+*.log
+*.tmp
+
+# -------------------------
+# Platform-specific project builds
+# -------------------------
+mac/build/
+windows/build/
+no_gui/build/
+mac/cmake-build-debug/
+windows/cmake-build-debug/
+no_gui/cmake-build-debug/
+
+# -------------------------
+# App data / JSON files (if not source-controlled)
+# -------------------------
 followers.json
 following.json
+
+# -------------------------
+# Ignore generated executables for each platform
+# -------------------------
+InstaCheckerMac
+InstaChecker.exe
+InstaCheckerNoGUI.exe
