@@ -42,11 +42,11 @@ If unsure, use the No GUI version — it works everywhere.
 
 ### III. Run the Tool
 
-# For Windows GUI / Mac OS GUI
+#### For Windows GUI / Mac OS GUI
 1. Place the `following.json` and `followers.json` files in the same directory as the `.exe` file.  
 2. Double-click the `.exe` to run it.  
 
-# For No GUI (Terminal)
+#### For No GUI (Terminal)
 1. Place followers.json and following.json in the same folder as the executable.
 2. Open a terminal in that folder.
 3. Run:
@@ -66,4 +66,5 @@ If unsure, use the No GUI version — it works everywhere.
 
 ### Notes
 - Make sure your JSON files are named correctly and placed in the same folder as the `.exe`.  
-- This tool only reads your exported Instagram data; it does not interact with Instagram directly.  
+- This tool only reads your exported Instagram data; it does not interact with Instagram directly.
+- If something doesn't work, don't hesitate to open a new issue or contact me
